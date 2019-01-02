@@ -33,7 +33,27 @@ def using_concat(my_favorite_things)
   my_favorite_things.concat(["mario kart", "flatiron school"])
 end
 
-def using_insert
+def using_insert(list_of_esoteric_programming_languages)
   list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
   list_of_esoteric_programming_languages.insert(4, "Malbolge")
+end
+
+def using_uniq(captain_planet_and_the_planeteers)
+  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+  captain_planet_and_the_planeteers.uniq
+end
+
+def using_flatten(private_colleges_in_newyork)
+  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+  private_colleges_in_newyork.flatten
+end
+
+def using_delete(instructors)
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  instructors.delete("Steven")
+end
+
+def using_delete_at(famous_robots)
+  famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
+  famous_robots.delete(2)
 end
