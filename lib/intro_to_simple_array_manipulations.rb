@@ -32,3 +32,8 @@ def using_concat(my_favorite_things)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   my_favorite_things.concat(["mario kart", "flatiron school"])
 end
+
+def using_insert
+  list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
+  list_of_esoteric_programming_languages.insert(4, "Malbolge")
+end
